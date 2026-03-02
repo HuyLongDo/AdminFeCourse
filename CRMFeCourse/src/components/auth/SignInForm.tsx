@@ -19,7 +19,7 @@ const SignIn: React.FC<SignInFormProps> = ({ onLoginSuccess }) => {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
 
-  const CORRECT_PASSWORD = "123123estuary";
+  const CORRECT_PASSWORD = "admin123";
 
   // Thêm onLoginSuccess vào dependency array
   const handleLogin = useCallback((e: React.FormEvent) => {
