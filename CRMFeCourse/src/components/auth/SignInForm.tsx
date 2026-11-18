@@ -94,7 +94,7 @@ const SignIn: React.FC<SignInFormProps> = ({ onLoginSuccess }) => {
                 <div className="relative">
                   <Input
                     type={showPassword ? "text" : "password"}
-                    placeholder="Điền mật khẩu"
+                    placeholder="Admin123"
                     value={password}
                     onChange={handlePasswordChange} // Hàm đã useCallback
                   />
