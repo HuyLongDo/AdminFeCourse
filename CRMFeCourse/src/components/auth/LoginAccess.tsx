@@ -5,7 +5,7 @@ interface LoginProps {
 }
 
 const Login: React.FC<LoginProps> = ({ onLoginSuccess }) => {
-  const CORRECT_PASSWORD = "admin123";
+  const CORRECT_PASSWORD = "Aa@12345";
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
 
